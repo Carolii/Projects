@@ -1,0 +1,167 @@
+.navigation-bar {
+    display: grid;
+    grid-template-columns: 50px 50px 50px 50px;
+    float: right;
+}
+.gmail {
+    text-decoration: none;
+    color: black;
+    font: 13px arial;
+    justify-self: center;
+    align-self: center;
+}
+.images {
+    text-decoration: none;
+    color: black;
+    font: 13px arial;
+    justify-self: center;
+    align-self: center;
+}
+.main {
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 233px 70px;
+    grid-template-areas: 
+    ". logo ."
+    ". search ."
+    ". flexbox ."
+    ". language-info .";
+
+}
+    .logo {
+grid-area: logo;
+justify-self: center;
+align-self: flex-end;
+margin-bottom: 20px;
+    }
+    .search {
+grid-area: search;
+border-radius: 30px;
+height: 44px;
+width: 480px;
+align-self: center;
+border: 2px solid #f2f2f2;
+
+
+    }
+.flexbox {
+    grid-area: flexbox;
+}   
+
+.flexbox {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.google-search-btn {
+    border: none;
+    width: 120px;
+    height: 36px;
+    border-radius: 5px;
+   margin-right: 10px;
+   color: #5F6368;
+    font: 14px arial;
+}
+.Imfeelinglucky-btn {
+    border: none;
+    width: 140px;
+    height: 36px;
+    border-radius: 5px;
+    margin-left: 15px;
+    color: #5F6368;
+    font: 14px arial;
+}
+.language-info {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    font: 13px arial;
+}
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    display: grid;
+    grid-template-columns: 80px 80px 80px 600px 80px 80px 80px;
+    grid-template-rows: 35px;
+    color: black;
+    background-color: #f2f2f2;
+    font: 13px arial;
+    text-decoration: none;
+    align-self: center;
+    margin-top: 250px;
+   padding-left: 30px;
+    padding-right: 50px;
+
+}
+.Advertising {
+    color: #5F6368;
+    font: 14px arial;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+.Business {
+    color: #5F6368;
+    font: 14px arial;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+.About {
+    color: #5F6368;
+    font: 14px arial;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+.Howsearchworks {
+    color: #5F6368;
+    font: 14px arial;
+    text-decoration: none;
+    display: flex;
+    align-self: center;
+   
+}
+.Privacy {
+    color: #5F6368;
+    font: 14px arial;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+.Terms {
+    color: #5F6368;
+    font: 14px arial;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+.Settings  {
+    color: #5F6368;
+    font: 14px arial;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+
+/*  
+.Advertising
+.Business
+.About
+.How Search works
+.Privacy
+.Terms
+.Settings */
