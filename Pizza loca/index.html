@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+
+<body>
+
+  
+<div class="d-flex justify-content-center" id="topcontainer">
+<div class="card text-center"  style="width: 27rem;" id="card1">
+<div class="cd-flex justify-content-center" id="topcontainer">
+  <h1>Pizza Loca</h1>
+  <div></div>
+  <div class="input-group mb-3" style="width: 25rem">
+    <div class="input-group-prepend">
+      <div class=""></div>
+      <span class="input-group-text" >Nombre</span>
+    </div>
+    <input type="text" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default" style="width: 18rem; " id="nombre">
+  </div>
+  <div class="input-group mb-3" style="width: 25rem">
+    <div class="input-group-prepend">
+      <span class="input-group-text" >Dirección</span>
+    </div>
+    <input type="text" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default" id="direccion">
+  </div>
+
+  <div class="input-group mb-3" style="width: 25rem">
+    <div class="input-group-prepend">
+      <span class="input-group-text">Teléfono</span>
+    </div>
+    <input type="text" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default" id="telefono">
+  </div>
+</div>
+
+<div class="column">
+  <div class="col-xs-1 center-block text-center"> 
+<div class="d-flex align-items-center">
+  <div class="input-group mb-3">
+    <div class="input-group-prepend d-flex align-items-center">
+      <div class="input-group-text">
+        <input type="radio" id="conPina">Pizza con piña
+      </div>
+    </div>
+  </div>
+    <div class="input-group mb-3 "> <!--Antes tenia el id aqui -->
+      <div class="input-group-prepend d-flex align-items-center">
+        <div class="input-group-text">
+          <input type="radio" id="sinPina">Pizza sín piña
+        </div>
+      </div>
+  </div>
+</div>
+
+<div>
+  <div class="column">
+    <div class="col-xs-1 center-block text-center"> 
+<button type="button" class="btn btn-dark" id="boton">Pedir Pizza</button>
+<br>
+<div class="d-flex justify-content-center" id="bottomcontainer">
+  <div class="card text-center"  style="width: 18rem; padding-block: 2rem;" id="card">
+    <div class="card-body">
+      <img id=imagenPizza src="https://i.pinimg.com/originals/5b/fc/46/5bfc46d02e21b788cdbf2541ba5931b6.gif" style="width: 15rem" alt="">
+      <h2 class="card-title">Oído Cocina!</h2>
+      <h3 class="card-text">Los detalles de tu orden:</h3>
+      <p id="respuestaNombre">Nombre:</p>
+      <p id="respuestaDireccion">Dirección:</p>
+      <p id="respuestaTelefono">Teléfono:</p>
+      <p id="respuestaPizza">Tipo de pizza:</p>
+    </div>
+  
+
+    <!-- <div class="card" style="width: 18rem;" id="card">
+        <img class="card-img-top" src="https://www.alfaforni.com/wp-content/uploads/2018/06/pizzaolive_forno.jpg" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Oído Cocina!</h5>
+          <p class="card-text">Los detalles de tu orden</p>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item" id="respuestaNombre"></li>
+          <li class="list-group-item" id="respuestaDireccion"></li>
+          <li class="list-group-item" id="respuestaTelefono"></li>
+          <li class="list-group-item" id="respuestaPizza"></li>
+        </ul>
+        </div>
+      </div>
+</div> -->
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+</body>
+</html>
