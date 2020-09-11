@@ -1,0 +1,197 @@
+@import 
+url("https://use.typekit.net/wfu6mox.css");
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0 8em;
+    font-family: futura-pt, sans-serif;
+    background-color: #DCD6F7;
+}
+
+/* HEADER */
+
+.header {
+    background-color: #DCD6F7;
+}
+
+.carolinaserani {
+    margin-top: 2em;
+    font: large; 
+    color: #181E8C;
+}
+
+/* MENU */
+nav li {
+    list-style: none;
+    font-size: x-large;
+    float: right;
+    text-underline-position: none;
+    padding-left: 1em;
+    color: #181E8C;
+  }   
+
+/* INTRO */
+.home-intro {
+    margin: 0 auto;
+    margin-top: 4em;
+}
+
+.introText {
+    color: #C7BAFF;
+    text-align: right;
+    font-size: x-large;
+    margin-top: 5em;
+    line-height: 1.5;
+}
+
+.introText2 {
+    color: #FFFFFF;
+    text-align: left;
+    font-size: x-large;
+    font-family: futura-pt, sans-serif;
+    font-style: italic;
+}
+
+.arrow {
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 1em;
+    font-size: x-large;
+}
+
+/* ABOUT ME */
+
+
+.home-aboutMe {
+    margin-top: 10em;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url(../Portafolio/Images/home_aboutme_backgroundfull.png);
+    color: #FFFFFF;
+    font-size: x-large;
+    font-family: futura-pt, sans-serif;
+    font-style: italic;
+}
+
+.aboutMeHello {
+    margin-left: 5em;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.aboutMeConnect {
+    margin-left: 5em;
+    margin-top: 1em;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 4em;
+}
+
+.imageCaro {
+    margin-top: -10em;
+    display: block;
+    margin-left: auto;
+    margin-right: 0;
+    width: 60%;
+}
+
+/* PORTFOLIO */
+
+.portafolio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* TEXTS CONFIG */
+
+.ProjectTitle {
+    margin-left: 2.8em;
+    font-family: futura-pt, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #424874;
+    font: x-large;
+    margin-top: 5em;
+}
+.projectDetails {
+    margin-left: 3em;
+    font-family: futura-pt, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #424874;
+    font: x-large;
+
+}
+.projectDate {
+    margin-left: 3em;
+    font-family: futura-pt, sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    color: #424874;
+    font: x-large;
+}
+
+/* IMAGE CONFIG */
+
+.instreamImage {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* FOOTER */
+
+.footer-scroolUp {
+    background-color: #C7BAFF;
+    height: 13em;
+}
+
+.footerTitle {
+    margin-left: 5em;
+    font-size: xx-large;
+    font-family: futura-pt, sans-serif;
+    font-style: italic;
+    color: #FFFFFF;
+    vertical-align: middle;
+}
+
+.footerText {
+    color: #424874;
+    text-align: right;
+    margin-right: 3em;
+    vertical-align: middle;
+}
+.arrowUp {
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    font-size: x-large;
+}
+
+/* FOOTER SOCIAL MEDIA */
+
+.footer-socialmedia {
+    color: #F4EEFF;
+    height: 9em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fb-ic {
+    margin-right: 7%;
+} 
+
+.bh-ic {
+    margin-right: 7%;
+}
+
+.li-ic {
+    margin-right: 7%;
+}
